@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traval-page</title>
+    <link rel="stylesheet" href="Sample.css"  type="text/css">
+</head>
+<body>
+    <nav class="Navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="Nav-links">
+            <li class="Active"><a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#" class="Learn">Contact</a></li>
+        </ul>
+        <img src="img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="haeder-content">
+            <h2>Explore The Wonderfull World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFULL GIFT</h1>
+            <a href="#" class="Learn">Learn More</a>
+        </div>
+    </header>
+    <section class="events">
+        <div class="title">
+            <h1>UPCOMING EVENTS</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+           
+            <div class="column">
+                <img  class="img1" src="img/img1.png" alt="">
+                <h4>Trucking on Himalaya</h4>
+                <p>With its majestic snow-capped peaks rising tall to kiss the sky, trekking in the Himalayas is always a treat to the senses. The trekking trails here are bound to leave you enchanted and wanting for more.</p>
+                <a href="https://www.thrillophilia.com/trekking-himalaya" class="Learn">Know More</a>
+            </div> 
+            <div class="column">
+                <img class="img1"  src="img/img2.png" alt="">
+                <h4>Holiday in kerala</h4>
+                <p>Kerala  Heart Capturing Scenic Beauties, The Mesmerizing Charm, and The lush Greenery has always been an Attraction for the world as one of the Best Holiday Destination.Its the God's on Country for more.</p>
+                <a href="https://keralatour.danatageotravel.com/" class="Learn">Know More</a>
+            </div>     
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Exploare the incredible World,A great quote can transport you to a time or place in the blink of an eye. And a great quote about exploring will make you want to pack your bag, book that ticket and jet away. 
+
+                </p>
+            <a href="#" class="Learn">Learn More</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="column-content">
+                <h1>UPCOMING TOURS & DESTINATIONS</h1>
+                <div class="line"></div>
+                <p>Vacations often start off as a wonderful idea and then eventually end up being a nightmare to manage.A lot of thought and brainstorming goes into perfectly organizing touring plans. </p>
+                <a href="http://www.makeyourdestinations.com/packages.php" class="Learn">Know More</a>
+            </div>
+            <div class="column-image">
+                <div class="image-gallery">
+                    <img src="img/img3.png" alt="">
+                    <img src="img/img4.png" alt="">
+                    <img src="img/img5.png" alt="">
+                    <img src="img/img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>Tirur, Malappuram, Kerala, India | Phone : 123-456-789 | Email : Unknown@gmail.com</p>
+        <p>Copyright  ©  2022 ADVENTURE</p>
+    </section>
+   
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLinks =document.querySelector('.Nav-links')
+
+        menuBtn . addEventListener('click',()=>{
+               navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
